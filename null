@@ -1,0 +1,70 @@
+original working dir is: |C:\wow5.00.12eng|
+application dir is: |C:\wow5.00.12eng|
+app_path : |C:\wow5.00.12eng\start_wow.exe|
+arg 0: |C:\wow5.00.12eng\start_wow.exe|
+reading properties from: |C:\wow5.00.12eng\start_wow.lax|
+Searching through the registry for VMs...
+couldn't find reg entry for HKEY_LOCAL_MACHINE\SOFTWARE\JavaSoft
+...Finished searching through the registry for VMs
+Searching through the path for VMs...
+  Looking in C:\Program Files\Common Files\Oracle\Java\javapath
+    Found: C:\Program Files\Common Files\Oracle\Java\javapath\java.exe
+    Found: C:\Program Files\Common Files\Oracle\Java\javapath\javaw.exe
+  Looking in C:\WINDOWS\system32
+    Ignoring 'C:\WINDOWS\system32\java.exe' because it is in a Windows System Directory.
+    Ignoring 'C:\WINDOWS\system32\javaw.exe' because it is in a Windows System Directory.
+    Ignoring 'C:\WINDOWS\system32\jre.exe' because it is in a Windows System Directory.
+    Ignoring 'C:\WINDOWS\system32\jrew.exe' because it is in a Windows System Directory.
+  Looking in C:\WINDOWS
+    Ignoring 'C:\WINDOWS\java.exe' because it is in a Windows System Directory.
+    Ignoring 'C:\WINDOWS\javaw.exe' because it is in a Windows System Directory.
+    Ignoring 'C:\WINDOWS\jre.exe' because it is in a Windows System Directory.
+    Ignoring 'C:\WINDOWS\jrew.exe' because it is in a Windows System Directory.
+  Looking in C:\WINDOWS\System32\Wbem
+  Looking in C:\WINDOWS\System32\WindowsPowerShell\v1.0\
+  Looking in C:\WINDOWS\System32\OpenSSH\
+  Looking in C:\Program Files\Microsoft SQL Server\130\Tools\Binn\
+  Looking in C:\Program Files\Microsoft SQL Server\Client SDK\ODBC\170\Tools\Binn\
+  Looking in C:\Program Files\dotnet\
+  Looking in C:\ProgramData\chocolatey\bin
+  Looking in C:\Program Files (x86)\Microsoft SQL Server\150\DTS\Binn\
+  Looking in C:\Program Files\Azure Data Studio\bin
+  Looking in C:\Program Files (x86)\dotnet\
+  Looking in C:\Program Files\PuTTY\
+  Looking in C:\Program Files (x86)\Microsoft SQL Server\150\Tools\Binn\
+  Looking in C:\Program Files\Microsoft SQL Server\150\Tools\Binn\
+  Looking in C:\Program Files\Microsoft SQL Server\150\DTS\Binn\
+  Looking in C:\Users\user_GN\AppData\Local\Microsoft\WindowsApps
+  Looking in C:\Users\user_GN\.dotnet\tools
+  Looking in C:\Users\user_GN\AppData\Roaming\cabal\bin
+  Looking in C:\ProgramData\chocolatey\lib\ghc\tools\ghc-8.10.2\bin
+  Looking in C:\tools\msys64
+  Looking in C:\Users\user_GN\AppData\Local\Programs\Microsoft VS Code\bin
+  Looking in C:\Users\user_GN\.dotnet\tools
+  Looking in C:\Program Files\Azure Data Studio\bin
+  Looking in C:\Users\user_GN\AppData\Local\Microsoft\WindowsApps
+...Finished searching through the path for VMs
+ORDERING VMS
+1: C:\Program Files\Common Files\Oracle\Java\javapath\java.exe (in path)
+2: C:\Program Files\Common Files\Oracle\Java\javapath\javaw.exe (in path)
+Searching for gui vm.
+lax.nl.valid.vm.list not found using ALL
+lax.nl.valid.vm.list=ALL
+lax.nl.current.vm=c:\wow5.00.12eng\jre\bin\java.exe.
+    Found: c:\wow5.00.12eng\jre\bin\java.exe
+    Found: c:\wow5.00.12eng\jre\bin\javaw.exe
+Looking in the same directory as c:\wow5.00.12eng\jre\bin\java.exe for current vms.
+SUCCESS! Using c:\wow5.00.12eng\jre\bin\javaw.exe
+
+Using *JNI INVOCATION* to simulate the following batch script:
+
+BATCH SCRIPT
+------------
+
+cd "C:\wow5.00.12eng"
+set CLASSPATH=C:\wow5.00.12eng\lax.jar;C:\wow5.00.12eng\libs\acrobat.jar;C:\wow5.00.12eng\libs\activation.jar;C:\wow5.00.12eng\libs\app1.zip;C:\wow5.00.12eng\libs\app2.zip;C:\wow5.00.12eng\libs\app3.zip;C:\wow5.00.12eng\libs\app4.zip;C:\wow5.00.12eng\libs\app5.zip;C:\wow5.00.12eng\libs\bcprov.jar;C:\wow5.00.12eng\libs\bcprov_jar_LICENSE.html;C:\wow5.00.12eng\libs\bt.jar;C:\wow5.00.12eng\libs\comm.jar;C:\wow5.00.12eng\libs\commons-logging-api.jar;C:\wow5.00.12eng\libs\commons-logging.jar;C:\wow5.00.12eng\libs\engine-ie.jar;C:\wow5.00.12eng\libs\fontbox-incubator.jar;C:\wow5.00.12eng\libs\fontbox.jar;C:\wow5.00.12eng\libs\java1.2-stubs.zip;C:\wow5.00.12eng\libs\jawin.jar;C:\wow5.00.12eng\libs\jempbox.jar;C:\wow5.00.12eng\libs\json-simple-1.1.1.jar;C:\wow5.00.12eng\libs\jxbrowser.jar;C:\wow5.00.12eng\libs\license.jar;C:\wow5.00.12eng\libs\log4j.jar;C:\wow5.00.12eng\libs\mail.jar;C:\wow5.00.12eng\libs\MRJToolkitStubs.zip;C:\wow5.00.12eng\libs\mshtml.jar;C:\wow5.00.12eng\libs\pdfbox.jar;C:\wow5.00.12eng\libs\servlet.jar;C:\wow5.00.12eng\libs\slf4j-api.jar;C:\wow5.00.12eng\libs\slf4j-log4j12.jar;C:\wow5.00.12eng\libs\soap.jar;C:\wow5.00.12eng\libs\sree_pro.jar;C:\wow5.00.12eng\libs\VinDecoder.jar;C:\wow5.00.12eng\libs\webserver.jar;C:\wow5.00.12eng\libs\winpack.jar;C:\wow5.00.12eng\libs\xercesImpl.jar;
+c:\wow5.00.12eng\jre\bin\javaw.exe -Xmx268435456 com.zerog.lax.LAX C:\\wow5.00.12eng\\start_wow.lax C:\\Users\\user_GN\\AppData\\Local\\Temp\\env.prop
+
+executing java...
+
+
